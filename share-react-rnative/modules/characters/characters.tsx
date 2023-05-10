@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import Card from '@vodolazskikh/share-react-rnative.base-ui.react-native.card';
+import Card from '@vodolazskikh/share-react-rnative.ui-kit.card';
 import axios from 'axios';
 import React from 'react';
 import { View } from 'react-native';

@@ -9,36 +9,6 @@
  */
 
 {
-    "base-ui/hooks/use-open": {
-        "scope": "vodolazskikh.share-react-rnative",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "share-react-rnative/base-ui/hooks/use-open"
-    },
-    "base-ui/react-native/card": {
-        "scope": "vodolazskikh.share-react-rnative",
-        "version": "0.0.3",
-        "mainFile": "index.ts",
-        "rootDir": "share-react-rnative/base-ui/react-native/card"
-    },
-    "design-tokens/base-tokens": {
-        "scope": "vodolazskikh.share-react-rnative",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "share-react-rnative/design-tokens/base-tokens"
-    },
-    "design-tokens/react-native-tokens": {
-        "scope": "vodolazskikh.share-react-rnative",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "share-react-rnative/design-tokens/react-native-tokens"
-    },
-    "design-tokens/react-tokens": {
-        "scope": "vodolazskikh.share-react-rnative",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "share-react-rnative/design-tokens/react-tokens"
-    },
     "hooks/use-is-react-native": {
         "scope": "vodolazskikh.share-react-rnative",
         "version": "0.0.1",
@@ -57,23 +27,36 @@
         "mainFile": "index.ts",
         "rootDir": "share-react-rnative/query/react-query-provider"
     },
-    "theme/mobile": {
-        "scope": "vodolazskikh.share-react-rnative",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "share-react-rnative/theme/mobile"
-    },
-    "theme/web": {
-        "scope": "vodolazskikh.share-react-rnative",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "share-react-rnative/theme/web"
-    },
     "types/card": {
         "scope": "vodolazskikh.share-react-rnative",
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "share-react-rnative/types/card"
+    },
+    "ui-kit/card": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "share-react-rnative/ui-kit/card",
+        "config": {
+            "teambit.react/react-native": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react-native"
+            },
+            "teambit.dependencies/dependency-resolver": {},
+            "teambit.compositions/compositions": {},
+            "teambit.docs/docs": {},
+            "teambit.preview/preview": {},
+            "teambit.component/dev-files": {},
+            "teambit.pipelines/builder": {},
+            "teambit.component/renaming": {
+                "renamedFrom": {
+                    "scope": "vodolazskikh.share-react-rnative",
+                    "name": "base-ui/react-native/card",
+                    "version": "0.0.3"
+                }
+            }
+        }
     },
     "$schema-version": "15.0.0"
 }
